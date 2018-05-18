@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
 
     if(message.content == 'why dont you fucking work') {
-        message.channel.send('stfu.');
+        message.channel.send('stfu blyat.');
     }
     if(message.content == 'capitalism is the best economic system') {
         message.channel.send('xaxaxaxaxaxaxaxaxaxa');
