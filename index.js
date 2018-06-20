@@ -27,9 +27,6 @@ bot.on('message', (message) => {
     if(message.content == 'I am a capitalist') {
         message.channel.send('Что ебать ты просто чертовски говорила, маленькая сука?')
     }
-	if(message.content == 'yeet yeet spaghetti') {
-		message.channel.send('<:zucc:459040375659560961>')
-	}
 });
 
 bot.login('NDQ2OTc1MTEzMTQ2MTM4NjI1.DeA1pA.pB2-rqmcUoAevnSCxpGg_x6EyZE');
